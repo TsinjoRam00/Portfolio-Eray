@@ -31,9 +31,10 @@
     position: fixed;
     display: flex;
     margin-left: 12%;
+    margin-top: -0.85%;
     list-style: none;
     padding-top: 0.5%;
-    border-radius: 50px;
+    border-radius: 1px 1px 50px 50px;
 }
 
 .linav{
