@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fond{
+    background-image: url(../img/Fond.png);
+    width: 106%;
+    height: 760px;
+    margin-left: -2%;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+}
+
+.logo{
+    box-shadow: 3px 3px 3px grey;
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+
+.ulnav{
+    background-color: #585656e1;
+    z-index: 2;
+    box-shadow: 3px 3px 10px grey;
+    background-color:none;
+    width: 50%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    margin-left: 12%;
+    list-style: none;
+    padding-top: 0.5%;
+    border-radius: 50px;
+}
+
+.linav{
+    margin-left: 11%;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.linav a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.linav a:hover{
+    color: #e82a2d;
+    border-bottom: 2px solid #e82a2d;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
